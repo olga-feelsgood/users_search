@@ -1,0 +1,23 @@
+.users-cardlist {
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px;
+}
+
+.users-cardlist__notfound {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.users-cardlist__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(356px, 1fr));
+  row-gap: 24px;
+  column-gap: 24px;
+  list-style-type: none;
+  padding: 0 0 60px;
+  margin: 0;
+}
