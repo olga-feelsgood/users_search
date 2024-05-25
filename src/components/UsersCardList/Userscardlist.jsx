@@ -12,6 +12,7 @@ function UsersCardList(props) {
           <UsersCard
             user={user}
             key={index + 1}
+            onCardClick={props.onCardClick}
           />)}
       </ul>
     </section>

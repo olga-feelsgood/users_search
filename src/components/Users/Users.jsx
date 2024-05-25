@@ -5,7 +5,7 @@ import UsersCardList from '../UsersCardList/Userscardlist.jsx';
 import usersApi from '../utils/UsersApi.js';
 
 
-function Users() {
+function Users(props) {
 
   const [allUsers, setAllUsers] = useState([]);//все юзеры с сервера
   const [isUsersNotFound, setIsUsersNotFound] = useState(false);//если не найдены юзеры по запросу
@@ -40,6 +40,7 @@ function Users() {
         <UsersCardList
           users={allUsers}
           isUsersNotFound={isUsersNotFound}
+          onCardClick={props.onCardClick}
         />
       </main>
     </div>

@@ -1,8 +1,21 @@
-# React + Vite
+<h1 align="center">Проект SPA"Kapibara Lab"</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Тестовое задание. Май 2024
 
-Currently, two official plugins are available:
+●	Сверстать по макету отчет. В отчете вывести список юзеров. 
+●	На странице есть поиск по юзерам. При вводе в строке поиска список фильтруется.  При клике по карточке выводить в pop-up дополнительную информацию по юзеру. При нажатии вне окна с информацией или крестик окно закрывается.
+●	Список юзеров получаем с бэкенда. Для этого нужно установить  и запустить локально сервер. Ссылка будет такой http://127.0.0.1:3000. Для получения всего списка отправляем запрос без параметров, для получения совпадений ФИО со строкой ввода добавляем параметры query (term), например http://127.0.0.1:3000?term=fer
+●	[Ссылка на макет] (https://www.figma.com/design/sVohAvXP1UpHzN3MMLwmkB/Задача-30080?node-id=0-1)
+●	[Ссылка на архив с бэкендом] (https://disk.yandex.ru/d/ajZyQoJcGstafQ)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+********
+Использованные технологии
+
+* JavaScript
+* React
+* CSS Modules
+* Vite
+
+*******
+Посмотреть проект можно по ссылке: https://olga-feelsgood.github.io/users_search/
